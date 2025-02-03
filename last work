@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Borang Pendaftaran</h2>
+
+    <label for="name">Nama Peserta:</label>
+            <input type="text" id="nama" name="nama" placeholder ="Enter your name"
+            required>
+
+
+            <p>
+                <label for="nombor">Nombor Kad Pengenalan:</label>
+                <input type="nombor" name="nombor">
+                </p>
+
+                <p>
+                    <label for="dob">Date of birth:</label>
+                    <input type="date" name="dob">
+                </p>
+
+
+                <p>
+                    <label for="umur">Umur:</label>
+                    <input type="umur" name="umur">
+                    </p>
+
+
+                    <p>
+                        <label for="jantina">Gender:</label>
+                        <input type="radio" name="jantina"value="lelaki">Lelaki
+                        <input type="radio" name="jantina" value="perempuan">Perempuan
+                    </p>
+
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email"placeholder="Email Adress:">
+                        </p>
+
+                        <p>
+                            <label for="nombor">Nombor Telefon:</label>
+                            <input type="nombor" name="nombor">
+                            </p>
+
+                            
+                             <p>
+                            <label for="alamat">Alamat Rumah:<textarea>
+                            
+                        </textarea>
+                            </p>
+
+                            <p>
+                                <label for="status pelajar">Status Pelajar:</label>
+                                <select id="status pelajar" name="status pelajar">
+                                    <option value="aktif">Aktif</option>
+                                    <option value="tidak aktif">Tidak Aktif</option>
+                                   
+                                </select>
+                    
+                                 <P>
+
+                                    <p>
+                                        <label for="kemahiran">Kemahiran</label>
+                                        <input type="checkbox"value="JTMK" name="department[]">HTML <br>
+                                        <input type="checkbox"value="JP" name="department[]">CSS <br>
+                                        <input type="checkbox"value="JKE" name="department[]">PHP <br>
+                                        
+
+
+                          
+                           
+                          
+                          
+                                  
+                                       
+                          
+                          
+                                    </p>
+
+
+
+        <P>
+            <label for="Profile-Photo">Profile Photo</label>
+            <input type="file" name="uploadedFile">
+        </P>
+                          
+
+
+        <p>
+            <label for="kata laluan">Password:</label>
+            <input type="password" name="katalaluan"placeholder="Please setup your password"required>
+            </p>
+
+            <p>
+                <button type="submit">Submit</button>
+                <button type="kosongkan">kosongkan</button>
+           </p>
+                          
+                                
+                            
+
+
+
+
+</body>
+</html>
