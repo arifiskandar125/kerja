@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <body style="background-color:powderblue;">
+
+    <h2 style="background-color:DodgerBlue;">Job application</h2>
+
+     <form action="https://dev.fare4z.com" method="GET" enctype="multipart/form-data"></form>
+     
+     <form action="/action_page.php"></form>
+
+    <label for="name">Full Name:</label>
+            <input type="text" id="nama" name="nama" placeholder ="Enter your name"
+            required>
+
+
+            <p>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email"placeholder="Email Adress:"
+                required>
+                </p>
+
+
+                <p>
+                    <label for="nombor">Phone Number:</label>
+                    <input type="nombor" name="Enter your phone number">
+                    </p>
+
+
+                    <p>
+                        <label for="position">Position applied for:</label>
+                        <select id="position" name="position">
+                            <option value="project manager">Project manager</option>
+                            <option value="Employee">Employee</option>
+                           
+                        </select>
+            
+                         <P>
+
+
+                            <p>
+                                <label for="asd">Avaible Start Date:</label>
+                                <input type="date" name="dob">
+                            </p>
+
+
+
+                           
+
+
+                            <p>
+                                <label for="cover letter">Cover Letter:<textarea>
+                                
+                            </textarea>
+                                </p>
+
+
+
+
+           
+
+
+                    <p>
+                        <label for="etp">Employment Type Preference:</label>
+                      </p>
+                        <input type="radio" name="time"value="full time">Full-time<br>
+                        <input type="radio" name="time" value="part time">Part-time<br>
+                        <input type="radio" name="time" value="Internship">Internship<br>
+                    </p>
+
+
+                           
+
+                            
+                           
+
+                            
+
+                                    <p>
+                                        <label for="skills">Skills:</label>
+                                        </p>
+                                        <input type="checkbox"value="HTML" name="skills[]">HTML <br>
+                                        <input type="checkbox"value="CSS" name="skills[]">CSS <br>
+                                        <input type="checkbox"value="javaScript" name="skills[]">JavaScript <br>
+                                        <input type="checkbox"value="phyton" name="skills[]">Phyton <br>
+                                        <input type="checkbox"value="others" name="skills[]">Others <br>
+
+
+                                        
+
+
+                          
+                           
+                          
+                          
+                                  
+                                       
+                          
+                          
+                                    </p>
+
+
+
+
+
+                                   
+
+                                    <p>
+                                        <input type="submit" value="Submit">
+                                    
+                <button type="kosongkan">kosongkan</button>
+           </p>
+
+
+
+        
+                          
+                                
+                            
+
+
+
+
+</body>
+</html>
